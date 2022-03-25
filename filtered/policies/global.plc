@@ -1,0 +1,36 @@
+[GROUP_INFO]
+name = global
+
+[DEVICES]
+addresses = *
+
+[ALIAS]
+names =
+
+[BANDWIDTH]
+upload   = 0
+download = 0
+
+[FILTERED]
+allow_sites     =
+block_exclusive = 0
+block_sites     =
+block_files     = alcohol, chats, drugs, gambling, gaming, hacking, p2p, phishing, porn, proxy, tobacco, violence, weapons
+
+[FIREWALL]
+block_ips       =
+block_ports_in  =
+block_ports_out =
+block_apps      = Kproxy
+
+[SAFE_SEARCH]
+engines = bing, google
+
+[TIME_CONTROL]
+mon =
+tue =
+wed =
+thu =
+fri =
+sat =
+sun =
